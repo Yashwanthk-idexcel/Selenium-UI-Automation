@@ -1,0 +1,23 @@
+Action Class and It's Key Methods in Selenium :-
+
+Action class is a class used to combine user interactions and perform a sequence of actions. The action class is used to simulate user behavior and perform complex actions.
+
+🔰 Some scenarios where the Action class is used includes :-
+📌 Mouse actions :- The Action class can be used to perform actions such as clicking, right-clicking, double-clicking and moving the mouse.
+📌 Keyboard interactions :- When interacting with keyboard shortcuts or key combinations, the Action class can be used.
+📌 Drag and Drop operations :- The Action class can be used to perform drag & drop operations, such as dragging an element and dropping it onto another element.
+
+🚀 Key methods of Action class :-
+
+✔ moveToElement(WebElement target) :- Moves the mouse to the center of the specified WebElement.
+✔ click() :- Performs a click action at the current mouse location.
+✔ clickAndHold() :- Holds the mouse button down.
+✔ release() :- Releases the mouse button.
+✔ doubleClick() :- Performs a double-click action.
+✔ contextClick() :- Performs a right-click action.
+✔dragAndDrop(WebElement source, WebElement target) :- Drags an element and drops it onto another element.
+✔ sendKeys(CharSequence.. keys) :- Sends keystrokes, performs keyboard input.
+✔ keyDown(Keys modifierKey) :- Holds down a specific key (e.g. Shift key).
+✔ KeyUp (Keys modifierKey) :- Release a specific key.
+
+When using the Action class, don't forget to call the .perform() method to execute the actions, and make sure to include appropriate waiting times.

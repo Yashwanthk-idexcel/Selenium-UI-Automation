@@ -1,0 +1,25 @@
+Selenium Automation Using JavaScript Executor :-
+It may happen in your projects, Selenium WebDriver is not able to perform some action on a particular web element. JavaScript executor comes into the picture for some rare scenarios that cannot be figured out using only selenium commands. There are many places where we execute JavaScript statements through Java Selenium WebDriver.
+
+🚀We can handle few practical scenarios, like mentioned below :-
+
+👉 click() method does not click on the button :-
+The click method of the WebElement interface was executed and it did not throw any error or exception. Still, the button was not clicked. This was not a problem of synchronization, the button was available & with the proper state when clicking was done. Doing the same thing with JavaScript worked well. The syntax for JavaExector is as follows -
+
+JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+String query = "document.getElementById('elementId').click()";
+jsExecutor.executeScript(query);
+
+👉 Typing a keyword in the textbox does not work :-
+The code tried typing a keyword in a textbox using the sendKeys() method and nothing happened. To overcome these kinds of scenarios one can use Javascript executor like mentioned below..
+
+JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+String quey = "document.getElementById('searchbos').value = 'java'";
+jsExecutor.executeScript (query);
+
+👉 Selecting all check-boxes from a list selected only the visible ones :-
+Whenever the user wants to check whether all checkboxes are embedded in a Listbox and found that only 3 checkboxes out of 5 were displayed at a time. To see the other ones, we would have to scroll the Listbox. The tester would think that the code was working correctly to discover that it was only chekcing the visible checkboxes. The ones not-visible were not checked. Again JavaScript executor will provide the solution for this as well....
+
+🎖 In automation testing, JavaScript executor saves the day when the WebDriver fails to perform an action while simulating user interaction.
+
+Comment below scenarios where JavaScript executor worked for you.

@@ -1,0 +1,41 @@
+|| Most asked Selenium Interview questions ||
+
+📌 What is Selenium? Explain its features and advantages.
+
+📌 What are the different components of Selenium?
+
+📌 How do you handle dynamic elements on a web page using Selenium?
+
+📌 How do you interact with checkboxes and radio buttons in Selenium?
+
+📌 Explain the differences between findElement() and findElements() methods in Selenium.
+
+📌 How do you handle alerts and pop-ups using Selenium WebDriver?
+
+📌 What is the importance of the Page Object Model (POM) in Selenium framework design?
+
+📌 How do you handle multiple windows and frames in Selenium?
+
+📌 Explain how you can perform actions like mouse hover and right-click using Selenium WebDriver.
+
+📌 What are the different types of waits available in Selenium WebDriver?
+
+📌 How do you handle synchronization issues in Selenium?
+
+📌 How do you perform data-driven testing using Selenium?
+
+📌 What is TestNG, and how do you integrate it with Selenium?
+
+📌 How do you handle browser cookies in Selenium WebDriver?
+
+📌 Explain the concept of Desired Capabilities in Selenium and when to use them.
+
+📌 What are the advantages of using the Selenium Grid for parallel test execution?
+
+📌 How do you capture screenshots and log errors in Selenium tests?
+
+📌 What are the different types of locators available in Selenium?
+
+📌 Explain the usage of Actions class in Selenium for performing advanced user interactions.
+
+📌 How do you handle SSL certificate errors in Selenium?

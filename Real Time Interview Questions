@@ -1,0 +1,24 @@
+Selenium Test Automation Interview Questions and Pattern based on my experience, helpful for beginners.
+
+As I had attended the Selenium Java Interviews, I am sharing the experience based on my views here for few Java questions.
+
+Each Interviewer expectation might be different, and They can ask some of the below or most of them in general.
+
+1) Write a Java program based on the Arrays, Strings.
+--> Arrays: They can give a Numeric array; we have to understand the pattern or logic and create the program to print values using basic conditional and looping statements in Java.
+--> Strings: They can give any String and ask to write programs for different ways depends on interviewer.
+Reverse String without inbuilt methods usage,
+Remove duplicate characters in the String,
+Reverse each word characters in an Sentence,
+Using Regular Expressions
+
+2) Explain Test Automation Framework Structure, Tools & Technologies, Reporting etc.
+--> We have to give a detailed explanation on the folder structure, execution flow, CI CD execution etc. If we worked on Test Automation frameworks using POM, Data driven, Keyword, Hybrid frameworks with TestNG, Cucumber.
+
+3) Writing Custom Dynamic XPath for any given section or Web Tables, on an given website URL.
+--> We have to use the XPath Axes methods
+
+4) Scenario based on Handling Frames, Windows, Alerts, Dropdowns, Actions, Shadow DOM, etc.
+--> Need to write and explain all the steps to achieve the requirement
+
+5) Selenium theoretical concepts about Advantages, Disadvantages, Alternative tools in market, New features in Latest version (for example Selenium 4, Selenium Manager), Different Selenium Exceptions and handling them etc.
